@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.item{
+    transition: .5s ease-in-out;
+}
+.item:hover{
+filter: brightness(80%);
+}
+.quetionline{
+    background-color:#ce0245;
+   
+    
+}
+.quetionline p{
+   letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
+    font-family: 'Dongle', sans-serif;
+}
+@media (max-width: 520px){
+    .quetionline p{
+        font-size:0.5rem;
+    }
+    .quetionline p a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .quetionline p a:hover{
+        text-decoration: none;
+    }
+}
+.alert-link{
+    color: #fff;
+    text-decoration: none;
+}
+.alert-link:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.footer {
+    color: #fff;
+    background: #ce0245;
+    padding: 50px 0px;
+    margin-top: 40px;
+  }
+  /* .ft_logo{
+          margin-left: 25px;
+          } */
+  .quick_links ul li,
+  .services ul li {
+    font-size: 0.85em;
+    padding-bottom: 10px;
+    list-style-type: none;
+  }
+  .quick_links ul li a,
+  .services ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  h5 {
+    color: #fff;
+  }
+  .follow {
+    text-align: center;
+  }
+  .bg_remove {
+    background: none;
+  }
+  .ft_socailmedia_icons {
+    text-align: center;
+  }
+  .ft_socailmedia_icons ul li {
+    display: inline;
+  }
+  
+  .ft_socailmedia_icons ul li .fab {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .ft_socailmedia_icons ul li .fab:hover {
+    color: #fff;
+  }
+  
+  .copy-right p {
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .quick_links li i,
+  .services li i,
+  .contactus li i {
+    margin: 0 10px 0 0;
+  }
+  .quick_links li a:hover,
+  .services li a:hover {
+    margin-left: 10px;
+  }
+  
+  .contactus ul li {
+    font-size: 0.85em;
+    padding-bottom: 10px;
+    list-style-type: none;
+  }
+  .ml {
+    margin-left: 25px;
+  }
+  .one, .two, .three{
+        display: none;
+        text-align: center;
+  }
+  .hide{
+    display: none;
+  }
+  .backbtn {
+    background-color: #ec21a9;
+    border: none;
+    border-radius: 10px;
+    color:#fff;
+    margin-left: 125px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .backbtn:hover {opacity: 1}
+  
+  
