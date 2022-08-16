@@ -112,7 +112,7 @@ filter: brightness(80%);
   .ml {
     margin-left: 25px;
   }
-  .one, .two, .three{
+  .one, .two, .three, .four{
         display: none;
         text-align: center;
   }
