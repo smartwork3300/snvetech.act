@@ -1,12 +1,12 @@
 function closeAllFolders(){
-    for(i=1;i<=4;i++){
+    for(i=1;i<=5;i++){
   document.getElementById(`folder_${i}`).classList.add("hide");
   document.querySelector(".backbtn").classList.remove("hide");
     }
   }
   
   function closeAllDates(){
-    for(i=1;i<=4;i++){
+    for(i=1;i<=5;i++){
   document.getElementById(`date_${i}`).classList.add("hide");
    }
   }
@@ -35,9 +35,15 @@ function closeAllFolders(){
    closeAllDates();
    
    }
+   function five(){
+    document.querySelector(".five").style.display="block";
+   closeAllFolders();
+   closeAllDates();
+   
+   }
   function backButton(){
     document.querySelector(".backbtn").classList.add("hide");
-    for(i=1;i<=4;i++){
+    for(i=1;i<=5;i++){
         document.getElementById(`folder_${i}`).classList.remove("hide");
      document.getElementById(`date_${i}`).classList.remove("hide");
     
@@ -47,6 +53,7 @@ function closeAllFolders(){
 document.querySelector(`.two`).style.display="none";
 document.querySelector(`.three`).style.display="none";
 document.querySelector(`.four`).style.display="none";
+document.querySelector(`.five`).style.display="none";
 }
 
   function closeButton(){
